@@ -7,7 +7,7 @@ app = Flask(__name__)
 app.config['SECRET_KEY'] = "my precious"
 
 
-@app.route("/department", methods=["GET", "POST"])
+@app.route("/", methods=["GET", "POST"])
 def index():
     """
     Render form and handle form submission
