@@ -4,11 +4,14 @@
     <meta charset="utf-8">
     <title>Flask - AJAX Form</title>
     <link href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
-    <link href="{{ url_for('static', filename='main.css') }}" rel="stylesheet">
+    <link href="/public/static/main.css" rel="stylesheet">
   </head>
   
   <body>
-    <div class="container">
+    <div class="container background-corona" style=''>
+
+    </div>
+    <div class="container" style="padding-top: 0">
       <h1>Select a department</h1><br><br>
       <div id="department_selection">
         <form action="/" method="POST">
@@ -49,6 +52,6 @@
     </div>
     <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
-    <script src="{{ url_for('static', filename='main.js') }}"></script>
+    <script src="/public/static/main.js"></script>
   </body>
 </html>

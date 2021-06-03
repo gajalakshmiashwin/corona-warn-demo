@@ -1,0 +1,16 @@
+.container {
+  padding-top: 50px;
+  max-width: 500px;
+}
+ #employee_select, #show_selection {
+  display: none;
+}
+
+.background-corona {
+    background-image: url("/public/images/background-image.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    margin-top: 4%
+}

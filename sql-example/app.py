@@ -3,7 +3,7 @@ from flask import Flask, request, render_template, make_response
 from form import TestForm
 from query import query_db
 
-app = Flask(__name__)
+app = Flask(__name__, static_folder='public')
 app.config['SECRET_KEY'] = "my precious"
 
 
